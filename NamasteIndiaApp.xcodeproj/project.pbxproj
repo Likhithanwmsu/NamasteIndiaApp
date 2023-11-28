@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1161B712AEC3EAD004A5C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1161B702AEC3EAD004A5C97 /* AppDelegate.swift */; };
+		B1161B732AEC3EAD004A5C97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1161B722AEC3EAD004A5C97 /* SceneDelegate.swift */; };
+		B1161B752AEC3EAD004A5C97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1161B742AEC3EAD004A5C97 /* ViewController.swift */; };
+		B1161B782AEC3EAD004A5C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1161B762AEC3EAD004A5C97 /* Main.storyboard */; };
+		B1161B7A2AEC3EAE004A5C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1161B792AEC3EAE004A5C97 /* Assets.xcassets */; };
+		B1161B7D2AEC3EAE004A5C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1161B7B2AEC3EAE004A5C97 /* LaunchScreen.storyboard */; };
+		B1161B882AEC3EAE004A5C97 /* NamasteIndiaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1161B872AEC3EAE004A5C97 /* NamasteIndiaAppTests.swift */; };
+		B1161B922AEC3EAE004A5C97 /* NamasteIndiaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1161B912AEC3EAE004A5C97 /* NamasteIndiaAppUITests.swift */; };
+		B1161B942AEC3EAE004A5C97 /* NamasteIndiaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1161B932AEC3EAE004A5C97 /* NamasteIndiaAppUITestsLaunchTests.swift */; };
+		B1161BA12AEC5127004A5C97 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1161BA02AEC5127004A5C97 /* CategoriesViewController.swift */; };
+		B1161BA32AEC5147004A5C97 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1161BA22AEC5147004A5C97 /* ItemsViewController.swift */; };
+		B1161BA52AEC5168004A5C97 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1161BA42AEC5168004A5C97 /* DetailsViewController.swift */; };
+		FACBD1312B10013700254F59 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACBD1302B10013700254F59 /* CategoryCell.swift */; };
+		FACBD1332B100A0F00254F59 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACBD1322B100A0F00254F59 /* Category.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1161B842AEC3EAE004A5C97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1161B652AEC3EAD004A5C97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1161B6C2AEC3EAD004A5C97;
+			remoteInfo = NamasteIndiaApp;
+		};
+		B1161B8E2AEC3EAE004A5C97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1161B652AEC3EAD004A5C97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1161B6C2AEC3EAD004A5C97;
+			remoteInfo = NamasteIndiaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1161B6D2AEC3EAD004A5C97 /* NamasteIndiaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NamasteIndiaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1161B702AEC3EAD004A5C97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1161B722AEC3EAD004A5C97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1161B742AEC3EAD004A5C97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1161B772AEC3EAD004A5C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1161B792AEC3EAE004A5C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1161B7C2AEC3EAE004A5C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1161B7E2AEC3EAE004A5C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1161B832AEC3EAE004A5C97 /* NamasteIndiaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamasteIndiaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1161B872AEC3EAE004A5C97 /* NamasteIndiaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamasteIndiaAppTests.swift; sourceTree = "<group>"; };
+		B1161B8D2AEC3EAE004A5C97 /* NamasteIndiaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamasteIndiaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1161B912AEC3EAE004A5C97 /* NamasteIndiaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamasteIndiaAppUITests.swift; sourceTree = "<group>"; };
+		B1161B932AEC3EAE004A5C97 /* NamasteIndiaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamasteIndiaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1161BA02AEC5127004A5C97 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		B1161BA22AEC5147004A5C97 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		B1161BA42AEC5168004A5C97 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FACBD1302B10013700254F59 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		FACBD1322B100A0F00254F59 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1161B6A2AEC3EAD004A5C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1161B802AEC3EAE004A5C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1161B8A2AEC3EAE004A5C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1161B642AEC3EAD004A5C97 = {
+			isa = PBXGroup;
+			children = (
+				B1161B6F2AEC3EAD004A5C97 /* NamasteIndiaApp */,
+				B1161B862AEC3EAE004A5C97 /* NamasteIndiaAppTests */,
+				B1161B902AEC3EAE004A5C97 /* NamasteIndiaAppUITests */,
+				B1161B6E2AEC3EAD004A5C97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1161B6E2AEC3EAD004A5C97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1161B6D2AEC3EAD004A5C97 /* NamasteIndiaApp.app */,
+				B1161B832AEC3EAE004A5C97 /* NamasteIndiaAppTests.xctest */,
+				B1161B8D2AEC3EAE004A5C97 /* NamasteIndiaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1161B6F2AEC3EAD004A5C97 /* NamasteIndiaApp */ = {
+			isa = PBXGroup;
+			children = (
+				B1161B702AEC3EAD004A5C97 /* AppDelegate.swift */,
+				B1161B722AEC3EAD004A5C97 /* SceneDelegate.swift */,
+				B1161B742AEC3EAD004A5C97 /* ViewController.swift */,
+				B1161B762AEC3EAD004A5C97 /* Main.storyboard */,
+				FACBD1302B10013700254F59 /* CategoryCell.swift */,
+				B1161BA42AEC5168004A5C97 /* DetailsViewController.swift */,
+				B1161BA22AEC5147004A5C97 /* ItemsViewController.swift */,
+				B1161BA02AEC5127004A5C97 /* CategoriesViewController.swift */,
+				FACBD1322B100A0F00254F59 /* Category.swift */,
+				B1161B792AEC3EAE004A5C97 /* Assets.xcassets */,
+				B1161B7B2AEC3EAE004A5C97 /* LaunchScreen.storyboard */,
+				B1161B7E2AEC3EAE004A5C97 /* Info.plist */,
+			);
+			path = NamasteIndiaApp;
+			sourceTree = "<group>";
+		};
+		B1161B862AEC3EAE004A5C97 /* NamasteIndiaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1161B872AEC3EAE004A5C97 /* NamasteIndiaAppTests.swift */,
+			);
+			path = NamasteIndiaAppTests;
+			sourceTree = "<group>";
+		};
+		B1161B902AEC3EAE004A5C97 /* NamasteIndiaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1161B912AEC3EAE004A5C97 /* NamasteIndiaAppUITests.swift */,
+				B1161B932AEC3EAE004A5C97 /* NamasteIndiaAppUITestsLaunchTests.swift */,
+			);
+			path = NamasteIndiaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1161B6C2AEC3EAD004A5C97 /* NamasteIndiaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1161B972AEC3EAE004A5C97 /* Build configuration list for PBXNativeTarget "NamasteIndiaApp" */;
+			buildPhases = (
+				B1161B692AEC3EAD004A5C97 /* Sources */,
+				B1161B6A2AEC3EAD004A5C97 /* Frameworks */,
+				B1161B6B2AEC3EAD004A5C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NamasteIndiaApp;
+			productName = NamasteIndiaApp;
+			productReference = B1161B6D2AEC3EAD004A5C97 /* NamasteIndiaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1161B822AEC3EAE004A5C97 /* NamasteIndiaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1161B9A2AEC3EAE004A5C97 /* Build configuration list for PBXNativeTarget "NamasteIndiaAppTests" */;
+			buildPhases = (
+				B1161B7F2AEC3EAE004A5C97 /* Sources */,
+				B1161B802AEC3EAE004A5C97 /* Frameworks */,
+				B1161B812AEC3EAE004A5C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1161B852AEC3EAE004A5C97 /* PBXTargetDependency */,
+			);
+			name = NamasteIndiaAppTests;
+			productName = NamasteIndiaAppTests;
+			productReference = B1161B832AEC3EAE004A5C97 /* NamasteIndiaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1161B8C2AEC3EAE004A5C97 /* NamasteIndiaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1161B9D2AEC3EAE004A5C97 /* Build configuration list for PBXNativeTarget "NamasteIndiaAppUITests" */;
+			buildPhases = (
+				B1161B892AEC3EAE004A5C97 /* Sources */,
+				B1161B8A2AEC3EAE004A5C97 /* Frameworks */,
+				B1161B8B2AEC3EAE004A5C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1161B8F2AEC3EAE004A5C97 /* PBXTargetDependency */,
+			);
+			name = NamasteIndiaAppUITests;
+			productName = NamasteIndiaAppUITests;
+			productReference = B1161B8D2AEC3EAE004A5C97 /* NamasteIndiaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1161B652AEC3EAD004A5C97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B1161B6C2AEC3EAD004A5C97 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B1161B822AEC3EAE004A5C97 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B1161B6C2AEC3EAD004A5C97;
+					};
+					B1161B8C2AEC3EAE004A5C97 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B1161B6C2AEC3EAD004A5C97;
+					};
+				};
+			};
+			buildConfigurationList = B1161B682AEC3EAD004A5C97 /* Build configuration list for PBXProject "NamasteIndiaApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1161B642AEC3EAD004A5C97;
+			productRefGroup = B1161B6E2AEC3EAD004A5C97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1161B6C2AEC3EAD004A5C97 /* NamasteIndiaApp */,
+				B1161B822AEC3EAE004A5C97 /* NamasteIndiaAppTests */,
+				B1161B8C2AEC3EAE004A5C97 /* NamasteIndiaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1161B6B2AEC3EAD004A5C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1161B7D2AEC3EAE004A5C97 /* LaunchScreen.storyboard in Resources */,
+				B1161B7A2AEC3EAE004A5C97 /* Assets.xcassets in Resources */,
+				B1161B782AEC3EAD004A5C97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1161B812AEC3EAE004A5C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1161B8B2AEC3EAE004A5C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1161B692AEC3EAD004A5C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1161BA32AEC5147004A5C97 /* ItemsViewController.swift in Sources */,
+				B1161B752AEC3EAD004A5C97 /* ViewController.swift in Sources */,
+				B1161B712AEC3EAD004A5C97 /* AppDelegate.swift in Sources */,
+				FACBD1312B10013700254F59 /* CategoryCell.swift in Sources */,
+				B1161BA12AEC5127004A5C97 /* CategoriesViewController.swift in Sources */,
+				B1161B732AEC3EAD004A5C97 /* SceneDelegate.swift in Sources */,
+				B1161BA52AEC5168004A5C97 /* DetailsViewController.swift in Sources */,
+				FACBD1332B100A0F00254F59 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1161B7F2AEC3EAE004A5C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1161B882AEC3EAE004A5C97 /* NamasteIndiaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1161B892AEC3EAE004A5C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1161B942AEC3EAE004A5C97 /* NamasteIndiaAppUITestsLaunchTests.swift in Sources */,
+				B1161B922AEC3EAE004A5C97 /* NamasteIndiaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1161B852AEC3EAE004A5C97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1161B6C2AEC3EAD004A5C97 /* NamasteIndiaApp */;
+			targetProxy = B1161B842AEC3EAE004A5C97 /* PBXContainerItemProxy */;
+		};
+		B1161B8F2AEC3EAE004A5C97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1161B6C2AEC3EAD004A5C97 /* NamasteIndiaApp */;
+			targetProxy = B1161B8E2AEC3EAE004A5C97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1161B762AEC3EAD004A5C97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1161B772AEC3EAD004A5C97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1161B7B2AEC3EAE004A5C97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1161B7C2AEC3EAE004A5C97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1161B952AEC3EAE004A5C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1161B962AEC3EAE004A5C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1161B982AEC3EAE004A5C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NamasteIndiaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.NamasteIndiaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1161B992AEC3EAE004A5C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NamasteIndiaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.NamasteIndiaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1161B9B2AEC3EAE004A5C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.NamasteIndiaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NamasteIndiaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NamasteIndiaApp";
+			};
+			name = Debug;
+		};
+		B1161B9C2AEC3EAE004A5C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.NamasteIndiaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NamasteIndiaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NamasteIndiaApp";
+			};
+			name = Release;
+		};
+		B1161B9E2AEC3EAE004A5C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.NamasteIndiaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NamasteIndiaApp;
+			};
+			name = Debug;
+		};
+		B1161B9F2AEC3EAE004A5C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.NamasteIndiaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NamasteIndiaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1161B682AEC3EAD004A5C97 /* Build configuration list for PBXProject "NamasteIndiaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1161B952AEC3EAE004A5C97 /* Debug */,
+				B1161B962AEC3EAE004A5C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1161B972AEC3EAE004A5C97 /* Build configuration list for PBXNativeTarget "NamasteIndiaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1161B982AEC3EAE004A5C97 /* Debug */,
+				B1161B992AEC3EAE004A5C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1161B9A2AEC3EAE004A5C97 /* Build configuration list for PBXNativeTarget "NamasteIndiaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1161B9B2AEC3EAE004A5C97 /* Debug */,
+				B1161B9C2AEC3EAE004A5C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1161B9D2AEC3EAE004A5C97 /* Build configuration list for PBXNativeTarget "NamasteIndiaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1161B9E2AEC3EAE004A5C97 /* Debug */,
+				B1161B9F2AEC3EAE004A5C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1161B652AEC3EAD004A5C97 /* Project object */;
+}
